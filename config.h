@@ -273,6 +273,8 @@ static Shortcut shortcuts[] = {
     {MODKEY, XK_9, selectscheme, {.i = 8}},
     {MODKEY, XK_0, selectscheme, {.i = +1}},
     {MODKEY | ControlMask, XK_0, selectscheme, {.i = -1}},
+    {XK_NO_MOD, XK_F11, fullscreen, {.i = 0}},
+    {MODKEY, XK_Return, fullscreen, {.i = 0}},
 };
 
 /*
