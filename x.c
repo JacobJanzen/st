@@ -1923,6 +1923,7 @@ int main(int argc, char *argv[]) {
     xw.l = xw.t = 0;
     xw.isfixed = False;
     xsetcursor(cursorshape);
+    colorscheme = 1;
 
     ARGBEGIN {
     case 'a':
